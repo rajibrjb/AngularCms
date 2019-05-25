@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import '../src/assets/vendor/bootstrap/css/bootstrap.min.css';
+@import '../src/assets/vendor/font-awesome/css/fontawesome-all.min.css';
+@import '../src/assets/vendor/animate/animate.min.css';
+@import '../src/assets/vendor/linear-icons/css/linear-icons.min.css';
+
+@import '../src/assets/vendor/owl.carousel/assets/owl.carousel.min.css';
+@import '../src/assets/vendor/owl.carousel/assets/owl.theme.default.min.css';
+@import '../src/assets/vendor/magnific-popup/magnific-popup.min.css';
+@import '../src/assets/css/theme.css';
+
+@import '../src/assets/css/theme-elements.css';
+/* @import '../src/assets/vendor/rs-plugin/css/settings.css';
+@import '../src/assets/vendor/rs-plugin/css/layers.css';
+@import '../src/assets/vendor/rs-plugin/css/navigation.css'; */
+
+@import '../src/assets/css/custom.css';
+
