@@ -4034,7 +4034,7 @@ Theme Version:	1.1.0
 
 			setOptions: function(opts) {
 				this.options = $.extend(true, {}, this.defaults, opts, theme.fn.getOptions(this.$wrapper.data('plugin-options')));
-
+        console.log(this.options);
 				return this;
 			},
 
@@ -4522,7 +4522,7 @@ Theme Version:	1.1.0
 
 			setOptions: function(opts) {
 				this.options = $.extend(true, {}, this.defaults, opts, theme.fn.getOptions(this.$wrapper.data('plugin-options')));
-
+console.log(this.options);
 				return this;
 			},
 
@@ -4540,7 +4540,8 @@ Theme Version:	1.1.0
 					minHeight;
 
 				// HTML Classes
-				$html.addClass('sticky-header-enabled');
+        $html.addClass('sticky-header-enabled');
+
 
 				if (parseInt(self.options.stickySetTop) < 0) {
 					$html.addClass('sticky-header-negative');
