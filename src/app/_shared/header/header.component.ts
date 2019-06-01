@@ -2,7 +2,7 @@ import { Component, OnInit , AfterViewInit } from '@angular/core';
 
 @Component({
 // tslint:disable-next-line: component-selector
-  selector: 'app-header',
+  selector: '.app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })

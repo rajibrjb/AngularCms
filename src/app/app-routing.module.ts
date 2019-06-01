@@ -4,9 +4,19 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './_pages/home/home.component';
 
 const appRoutes: Routes = [
-  { path: 'crisis-center', component: HomeComponent },
-  { path: 'vividdigital',        component: HomeComponent },
-  { path: '',   redirectTo: '/vividdigital', pathMatch: 'full' },
+  {
+    path: 'crisis-center',
+    component: HomeComponent
+  },
+  {
+    path: 'vividdigital',
+    component: HomeComponent
+  },
+  {
+    path: '',
+    redirectTo: '/vividdigital',
+    pathMatch: 'full'
+  }
 ];
 
 @NgModule({
@@ -15,7 +25,7 @@ const appRoutes: Routes = [
       scrollPositionRestoration: 'enabled',
       anchorScrolling: 'enabled',
     })],
-	exports: [RouterModule]
+  exports: [RouterModule]
 })
 export class AppRoutingModule {
 }

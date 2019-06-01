@@ -1,7 +1,7 @@
 import { Component, OnInit , AfterViewInit } from '@angular/core';
-import * as $ from 'jquery';
+
 @Component({
-  selector: 'app-slider',
+  selector: '.app-slider',
   templateUrl: './slider.component.html',
   styleUrls: ['./slider.component.css']
 })

@@ -1,9 +1,9 @@
-<div class="body">
-
-	<div role="main" class="main">
-      <app-slider></app-slider>
-      <app-header></app-header>
-     <app-home-about-us></app-home-about-us>
+<div role="main" class="main">
+      <div id="home" class="app-slider slider-container slider-container-full-height rev_slider_wrapper"></div>
+      <header id="header" class="app-header header-with-borders header-with-borders-sticky"
+            data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyStartAtElement': '#header'}">
+      </header>
+      <app-home-about-us></app-home-about-us>
       <app-home-expertise></app-home-expertise>
       <app-work-progress></app-work-progress>
       <app-portfolio></app-portfolio>
@@ -11,6 +11,6 @@
       <app-home-subscribe></app-home-subscribe>
       <app-home-blog></app-home-blog>
       <app-technologies></app-technologies>
-	 </div>
-      <app-footer></app-footer>
 </div>
+
+<footer id="footer" class="app-footer footer-hover-links-light pt-4 mt-0"></footer>

@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import { HttpClient, HttpClientModule} from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { ValuesComponent } from './values/values.component';
 import { SliderComponent } from './_shared/slider/slider.component';
 import { HeaderComponent } from './_shared/header/header.component';
 import { FooterComponent } from './_shared/footer/footer.component';
@@ -21,7 +20,6 @@ import { HomeComponent } from './_pages/home/home.component';
 @NgModule({
    declarations: [
       AppComponent,
-      ValuesComponent,
       SliderComponent,
       HeaderComponent,
       FooterComponent,
